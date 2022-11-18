@@ -1,0 +1,38 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 21px;
+}
+
+.menuHeader {
+  background-color: rgb(37, 37, 39);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menuHeader ul {
+  max-width: 800px;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.menuHeader ul li {
+  display: inline;
+}
+
+.menuHeader ul li a {
+  color: #fff;
+  padding: 20px;
+  display: inline-block;
+  text-decoration: none;
+  transition: background 0.3s ease-in-out;
+}
+
+.menuHeader ul li a:hover {
+  background-color: rgb(24, 139, 233);
+}

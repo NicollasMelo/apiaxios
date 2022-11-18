@@ -1,0 +1,29 @@
+.contentMain {
+  text-align: center;
+  padding: 20px;
+  background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.com%2Fpin%2F672725263072233643%2F&psig=AOvVaw0dsAE5miNj5AG5zY2D98ZL&ust=1668744941696000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCKiz672ttPsCFQAAAAAdAAAAABAJ");
+}
+
+.title {
+  font-size: 1.8rem;
+  padding-bottom: 20px;
+}
+
+.liRepository {
+  list-style: none;
+}
+
+.liItens {
+  font-size: 1.3rem;
+}
+
+.linkRepository {
+  text-decoration: none;
+  color: black;
+  transition: 0.3 ease-in;
+}
+
+.linkRepository:hover {
+  text-decoration: none;
+  color: rgb(24, 139, 233);
+}
